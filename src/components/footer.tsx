@@ -169,7 +169,7 @@ export function Footer() {
                 Available for freelance work
               </p>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:hungng1810@gmail.com"
                 className="text-primary hover:underline inline-flex items-center gap-1 hover:translate-x-1 transition-all duration-300 group"
               >
                 Get in touch
