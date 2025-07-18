@@ -29,12 +29,12 @@ export function Skills() {
       ],
     },
     {
-      title: "Design & UX",
-      icon: "🎨",
+      title: "Other Skills",
+      icon: "🔑",
       skills: [
-        { name: "Responsive Design", proficiency: "Expert" },
+        { name: "Responsive", proficiency: "Expert" },
         { name: "UI/UX Principles", proficiency: "Advanced" },
-        { name: "Figma", proficiency: "Intermediate" },
+        { name: "Working with Figma", proficiency: "Intermediate" },
         { name: "Accessibility", proficiency: "Advanced" },
         { name: "Performance Optimization", proficiency: "Advanced" },
         { name: "SEO Best Practices", proficiency: "Advanced" },
@@ -127,54 +127,6 @@ export function Skills() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Additional certifications or achievements */}
-        <div
-          className={`mt-16 max-w-4xl mx-auto transition-all duration-1000 delay-1000 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <h3 className="text-2xl font-bold text-center mb-8">
-            Certifications & Achievements
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-card rounded-lg p-6 border text-center hover:shadow-lg transition-all duration-300 hover:scale-[1.05] group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <span className="text-2xl">🏆</span>
-              </div>
-              <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors duration-300">
-                React Certification
-              </h4>
-              <p className="text-sm text-muted-foreground">
-                Advanced React Development
-              </p>
-            </div>
-
-            <div className="bg-card rounded-lg p-6 border text-center hover:shadow-lg transition-all duration-300 hover:scale-[1.05] group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <span className="text-2xl">⚡</span>
-              </div>
-              <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors duration-300">
-                Performance Expert
-              </h4>
-              <p className="text-sm text-muted-foreground">
-                Web Performance Optimization
-              </p>
-            </div>
-
-            <div className="bg-card rounded-lg p-6 border text-center hover:shadow-lg transition-all duration-300 hover:scale-[1.05] group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <span className="text-2xl">🎨</span>
-              </div>
-              <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors duration-300">
-                UI/UX Design
-              </h4>
-              <p className="text-sm text-muted-foreground">
-                User Experience Design
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

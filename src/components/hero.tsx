@@ -164,7 +164,7 @@ export function Hero() {
 
           <div className="group relative rounded-xl border bg-card overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
             <div className="aspect-video bg-[url(/images/avita-img.jpg)] bg-cover flex items-center justify-center group-hover:from-primary/15 group-hover:to-secondary/15 transition-all duration-500">
-              <div className="text-center transition-all duration-500 opacity-0 group-hover:opacity-100">
+              <div className="text-center text-white transition-all duration-500 opacity-0 group-hover:opacity-100">
                 <div className="w-16 h-16 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                   <span className="text-2xl group-hover:animate-bounce">
                     🚀
