@@ -128,17 +128,17 @@ export function Footer() {
               {[
                 {
                   icon: Github,
-                  href: "https://github.com/yourusername",
+                  href: "https://github.com/hungsieuhay",
                   label: "GitHub",
                 },
                 {
                   icon: Linkedin,
-                  href: "https://linkedin.com/in/yourusername",
+                  href: "https://www.linkedin.com/in/h%C6%B0ng-nguy%E1%BB%85n-42900216b/",
                   label: "LinkedIn",
                 },
                 {
                   icon: Mail,
-                  href: "mailto:your.email@example.com",
+                  href: "mailto:hungng1810@gmail.com",
                   label: "Email",
                 },
               ].map((social, index) => {
