@@ -186,7 +186,7 @@ export function Footer() {
           style={{ transitionDelay: "800ms" }}
         >
           <p className="hover:text-foreground transition-colors">
-            &copy; {currentYear} Portfolio. All rights reserved.
+            &copy; 2024 Portfolio. All rights reserved.
           </p>
         </div>
       </div>

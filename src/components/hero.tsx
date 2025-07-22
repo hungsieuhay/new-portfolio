@@ -157,9 +157,7 @@ export function Hero() {
             <h2 className="text-2xl font-bold mb-2 hover:text-primary transition-colors">
               Featured Project
             </h2>
-            <p className="text-muted-foreground">
-              Avita Diving Dasboard Web Application
-            </p>
+            <p className="text-muted-foreground">Web3 Platform: GemX Network</p>
           </div>
 
           <div className="group relative rounded-xl border bg-card overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-[1.02]">
@@ -171,14 +169,14 @@ export function Hero() {
                   </span>
                 </div>
                 <h3 className="text-lg font-semibold mb-2">
-                  Avita Diving Dasboard
+                  Web3 Platform: GemX Network
                 </h3>
                 <p className="text-sm mb-4">
-                  Full-stack web application with role-based access, ticket
-                  management, and document generation
+                  Full-stack web application with role-based access, crypto
+                  price management, and document generation
                 </p>
                 <Link
-                  href="/projects/customer-portal"
+                  href="/projects/gemx-dashboard"
                   className="inline-flex items-center text-sm font-medium hover:underline group-hover:translate-x-1 transition-all duration-300"
                 >
                   View Project Details
