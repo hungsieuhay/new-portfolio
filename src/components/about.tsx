@@ -182,22 +182,22 @@ export function About() {
               <div className="space-y-6">
                 {[
                   {
-                    title: "Avita Diving Dasboard",
-                    period: "2023-2024",
-                    description:
-                      "Build a customer portal to join online meetings, manage meeting rooms and create documents using Next.js and TypeScript",
-                  },
-                  {
                     title: "Web3 Platform",
-                    period: "2022-2023",
+                    period: "2023-2024",
                     description:
                       "Research and develop a crypto market analytics dashboard with real-time data visualization and interactive reporting features",
                   },
                   {
                     title: "E-commerce Platform",
-                    period: "2022-2023",
+                    period: "2023-2024",
                     description:
                       "Developed responsive e-commerce platform with payment integration, inventory management, and admin panel",
+                  },
+                  {
+                    title: "Avita Diving Dasboard",
+                    period: "2022-2023",
+                    description:
+                      "Build a customer portal to join online meetings, manage meeting rooms and create documents using Next.js and TypeScript",
                   },
                 ].map((experience, index) => (
                   <div

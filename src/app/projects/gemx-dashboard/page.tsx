@@ -59,13 +59,13 @@ export default function CustomerPortalPage() {
       icon: Shield,
       title: "Role-Based Access Control",
       description:
-        "Secure authentication system with two distinct user roles: Client, and Operator, each with specific permissions and dashboard views.",
+        "Secure authentication system with two distinct user roles: Client, and Admin, each with specific permissions and dashboard views.",
     },
     {
       icon: FileText,
-      title: "Room Management System",
+      title: "Crypto Price Management System",
       description:
-        "Complete support room lifecycle management with status tracking, priority levels, and real-time updates.",
+        "Complete support crypto price management with status tracking, priority levels, and real-time updates.",
     },
     {
       icon: BarChart3,
@@ -185,19 +185,17 @@ export default function CustomerPortalPage() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl font-bold mb-6 hover:text-primary transition-colors">
-            Avita Diving Dasboard
+            Web3 Platform: GemX Network
           </h1>
 
           <p className="text-xl text-muted-foreground leading-relaxed mb-8 hover:text-foreground transition-colors">
-            A customer portal to join online meetings, manage meeting rooms and
-            create documents using Next.js and TypeScript. Built to showcase
-            expertise in modern web application architecture and user experience
-            design.
+            Research and develop a crypto market analytics dashboard with
+            real-time data visualization and interactive reporting features
           </p>
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://avita.co.jp/"
+              href="https://gemx.io"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg"
@@ -220,28 +218,21 @@ export default function CustomerPortalPage() {
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Duration</h3>
-                <p className="text-muted-foreground">6 months</p>
+                <p className="text-muted-foreground">In progress</p>
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Team Size</h3>
-                <p className="text-muted-foreground">Solo Project</p>
+                <p className="text-muted-foreground">3 people</p>
               </div>
             </div>
 
             <div className="prose prose-gray dark:prose-invert max-w-none">
               <p>
-                This customer portal was designed to demonstrate my ability to
-                build complex, enterprise-level web applications. The project
-                showcases advanced frontend development skills including
+                This web3 platform: GemX Network was designed to demonstrate my
+                ability to build complex, enterprise-level web applications. The
+                project showcases advanced frontend development skills including
                 authentication systems, role-based access control, real-time
                 features, and document generation capabilities.
-              </p>
-
-              <p>
-                The application serves two distinct user types: Clients who can
-                attend meeting online, and Operators who mange all meeting room
-                is active. Each role has a tailored interface optimized for
-                their specific workflows.
               </p>
             </div>
           </div>
@@ -330,18 +321,18 @@ export default function CustomerPortalPage() {
                 <p className="text-muted-foreground">Lighthouse Score</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">3</div>
+                <div className="text-3xl font-bold text-primary mb-2">2</div>
                 <p className="text-muted-foreground">User Roles Supported</p>
               </div>
             </div>
 
             <div className="prose prose-gray dark:prose-invert max-w-none">
               <p>
-                The customer portal successfully demonstrates advanced frontend
-                development capabilities and serves as a comprehensive showcase
-                of modern web application architecture. The project highlights
-                proficiency in complex state management, authentication systems,
-                and user experience design.
+                The web3 platform: GemX Network successfully demonstrates
+                advanced frontend development capabilities and serves as a
+                comprehensive showcase of modern web application architecture.
+                The project highlights proficiency in complex crypto price
+                management, authentication systems, and user experience.
               </p>
             </div>
           </div>

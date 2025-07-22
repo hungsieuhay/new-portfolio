@@ -10,43 +10,12 @@ import { useEffect, useRef, useState } from "react";
 export default function ProjectsPage() {
   const projects = [
     {
-      id: "customer-portal",
-      title: "Avita Diving Dashboard",
-      description:
-        "A comprehensive customer portal with role-based access control, ticket management, and document generation. Features include user authentication, dashboard analytics, support ticket system, and PDF/Excel document generation.",
-      longDescription:
-        "This project demonstrates my ability to build complex web applications with multiple user roles and advanced functionality. The portal includes a complete authentication system, role-based access control for Client and Operator roles, real-time room update management.",
-      image: "/images/avita-img.jpg",
-      tags: [
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Authentication",
-        "API Integration",
-        "Role-based Access",
-      ],
-      featured: true,
-      status: "Completed",
-      date: "2024",
-      links: {
-        demo: "https://avita.co.jp/",
-        details: "/projects/customer-portal",
-      },
-      highlights: [
-        "Role-based authentication system",
-        "Real-time ticket management",
-        "Document generation (PDF/Excel)",
-        "Responsive dashboard design",
-        "API integration and data management",
-      ],
-    },
-    {
       id: "saas-dashboard",
       title: "Web3 Platform",
       description:
         "Real-time analytics dashboard with interactive charts, data visualization, and reporting features. Built with modern React patterns and optimized for performance.",
       longDescription:
-        "A comprehensive analytics platform that showcases my skills in data visualization and real-time applications. Features include interactive charts, customizable dashboards, real-time data updates, and export functionality.",
+        "A comprehensive analytics platform that showcases my skills in data visualization and real-time applications. Features include interactive charts, real-time data updates, and export functionality.",
       image: "/images/gemx-img.jpg",
       tags: [
         "Next.js",
@@ -56,12 +25,12 @@ export default function ProjectsPage() {
         "Data Visualization",
         "Performance Optimization",
       ],
-      featured: false,
+      featured: true,
       status: "In Progress",
       date: "2023",
       links: {
         demo: "https://gemx.io/",
-        details: "/projects/saas-dashboard",
+        details: "/projects/gemx-dashboard",
       },
       highlights: [
         "Interactive data visualization",
@@ -81,9 +50,9 @@ export default function ProjectsPage() {
       image: "/images/itel-img.jpg",
       tags: [
         "Next.js",
-        "Stripe",
-        "PostgreSQL",
+        "Tailwind CSS",
         "Responsive Design",
+        "PostgreSQL",
         "Payment Integration",
         "Admin Panel",
       ],
@@ -130,6 +99,37 @@ export default function ProjectsPage() {
         "Real-time updates",
         "Progress tracking",
         "Task assignment system",
+      ],
+    },
+    {
+      id: "customer-portal",
+      title: "Avita Diving Dashboard",
+      description:
+        "A comprehensive customer portal with role-based access control, ticket management, and document generation. Features include user authentication, dashboard analytics, support ticket system, and PDF/Excel document generation.",
+      longDescription:
+        "This project demonstrates my ability to build complex web applications with multiple user roles and advanced functionality. The portal includes a complete authentication system, role-based access control for Client and Operator roles, real-time room update management.",
+      image: "/images/avita-img.jpg",
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "SCSS",
+        "Authentication",
+        "API Integration",
+        "Role-based Access",
+      ],
+      featured: false,
+      status: "Completed",
+      date: "2022",
+      links: {
+        demo: "https://avita.co.jp/",
+        details: "/projects/customer-portal",
+      },
+      highlights: [
+        "Role-based authentication system",
+        "Real-time ticket management",
+        "Document generation (PDF/Excel)",
+        "Responsive dashboard design",
+        "API integration and data management",
       ],
     },
   ];
@@ -184,7 +184,7 @@ export default function ProjectsPage() {
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">My Projects</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
             A collection of web applications showcasing my expertise in modern
-            frontend development, from customer portals to SaaS dashboards and
+            frontend development, from customer portals to web3 platform and
             e-commerce platforms.
           </p>
         </div>

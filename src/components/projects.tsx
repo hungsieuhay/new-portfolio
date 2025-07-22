@@ -8,9 +8,9 @@ export function Projects() {
   const projects = [
     {
       id: "customer-portal",
-      title: "Avita Diving Dasboard",
+      title: "Web3 Platform: GemX Network",
       description:
-        "Build a customer portal to join online meetings, manage meeting rooms and create documents using Next.js and TypeScript.",
+        "Research and develop a crypto market analytics dashboard with real-time data visualization and interactive reporting features",
       image: "/api/placeholder/600/400",
       tags: [
         "Next.js",
@@ -21,21 +21,21 @@ export function Projects() {
       ],
       featured: true,
       links: {
-        demo: "https://avita.co.jp/",
-        details: "/projects/customer-portal",
+        demo: "https://gemx.io/",
+        details: "/projects/gemx-dashboard",
       },
     },
     {
       id: "saas-dashboard",
-      title: "Web3 Platform",
+      title: "Avita Diving Dasboard ",
       description:
-        "Research and develop a crypto market analytics dashboard with real-time data visualization and interactive reporting features",
-      image: "/images/gemx-img.jpg",
-      tags: ["NextJS", "Trading View Chart", "Tailwind CSS", "Real-time Data"],
+        "Build a customer portal to join online meetings, manage meeting rooms and create documents using Next.js and TypeScript.",
+      image: "/images/avita-img.jpg",
+      tags: ["Next.js", "skyway.js", "SCSS", "Real-time Data"],
       featured: false,
       links: {
-        demo: "https://gemx.io/",
-        details: "/projects/gemx-dashboard",
+        demo: "https://avita.co.jp/",
+        details: "/projects/customer-portal",
       },
     },
     {
@@ -103,7 +103,7 @@ export function Projects() {
           >
             <div className="bg-card rounded-2xl border overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-[1.02] group">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                <div className="aspect-video lg:aspect-auto bg-[url(/images/avita-img.jpg)] bg-cover flex items-center justify-center group-hover:from-primary/20 group-hover:to-secondary/20 transition-all duration-500"></div>
+                <div className="aspect-video lg:aspect-auto bg-[url(/images/gemx-img.jpg)] bg-cover flex items-center justify-center group-hover:from-primary/20 group-hover:to-secondary/20 transition-all duration-500"></div>
 
                 <div className="p-8 lg:p-12 flex flex-col justify-center">
                   <div className="inline-flex items-center rounded-full bg-primary/10 text-primary px-3 py-1 text-sm font-medium mb-4 w-fit">
